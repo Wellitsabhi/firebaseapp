@@ -5,6 +5,9 @@ import { database } from "@/app/firebaseConfig";
 import { child, get, ref } from "firebase/database";
 
 import profile from "@/public/profile.jpg";
+import sharma from "@/public/sharma1.jpeg";
+import nama from "@/public/nama.jpeg";
+import amol from "@/public/amol.jpeg";
 
 export default function Home() {
 
@@ -132,7 +135,6 @@ export default function Home() {
           <div className=" flex flex-row flex-wrap justify-center  mt-10 ">
             <div className="avatar flex flex-col items-center justify-center">
               <div className="w-24 rounded-full mr-8 ml-8">
-                {/* <img  src="../public/profile.jpg" /> */}
                 <Image src={profile} />
               </div>
               <b className="hover:text-cyan-900 ">Abhishek Singh</b>
@@ -141,25 +143,25 @@ export default function Home() {
             </div>
             <div className="avatar flex flex-col items-center justify-center">
               <div className="w-24 rounded-full mr-8 ml-8">
-                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <Image src={nama} />
               </div>
-              <b className="hover:text-cyan-900 ">Abhishek Singh</b>
+              <b className="hover:text-cyan-900 ">Aabhas Nama</b>
               <p className="font-light hover:text-cyan-900 ">ECE</p>
               <p className="font-light hover:text-cyan-900 ">Final year student</p>
             </div>
             <div className="avatar flex flex-col items-center justify-center">
               <div className="w-24 rounded-full mr-8 ml-8">
-                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <Image src={sharma} />
               </div>
-              <b className="hover:text-cyan-900 ">Abhishek Singh</b>
+              <b className="hover:text-cyan-900 ">Abhishek Sharma</b>
               <p className="font-light hover:text-cyan-900 ">ECE</p>
               <p className="font-light hover:text-cyan-900 ">Final year student</p>
             </div>
             <div className="avatar flex flex-col items-center justify-center">
               <div className="w-24 rounded-full mr-8 ml-8">
-                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <Image src={amol} />
               </div>
-              <b className="hover:text-cyan-900 ">Abhishek Singh</b>
+              <b className="hover:text-cyan-900 ">Amol Kumari</b>
               <p className="font-light hover:text-cyan-900 ">ECE</p>
               <p className="font-light hover:text-cyan-900 ">Final year student</p>
             </div>
@@ -187,7 +189,7 @@ export default function Home() {
             </div>
           </nav>
           <aside>
-            <p>Copyright © 2024 - All right/wrong resereved by students</p>
+            <p>Copyright © 2024 - All rights/wrong resereved by students</p>
           </aside>
         </footer>
 
