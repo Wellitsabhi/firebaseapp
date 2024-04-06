@@ -12,9 +12,9 @@ import { getDatabase } from "firebase/database";
   const firebaseConfig = {
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
-    databaseURL: process.env.databaseURL,
+    databaseURL: "https://test-1-bcddf-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "test-1-bcddf",
-    storageBucket: process.env.storageBucket,
+    storageBucket: "test-1-bcddf.appspot.com",
     messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId
   }
